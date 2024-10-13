@@ -1,7 +1,0 @@
-services:
-  app:
-    user: vscode
-    build:    
-      dockerfile: Dockerfile
-    volumes:
-      - ../..:/workspaces:cached
