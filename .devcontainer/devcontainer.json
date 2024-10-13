@@ -1,0 +1,10 @@
+{
+  "name": "DevContainer for Podman",
+  "dockerComposeFile": "compose.yaml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "containerEnv": {
+    "HOME": "/home/vscode"
+  },  
+  "containerUser": "vscode"  
+}
