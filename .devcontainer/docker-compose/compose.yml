@@ -5,5 +5,6 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ../..:/workspaces:cached
+      # - ..:/workspaces:cached
     command: sleep infinity
    
